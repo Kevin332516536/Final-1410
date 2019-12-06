@@ -1,3 +1,7 @@
+//Kaiwen Zhang
+//12/4/19
+//TD
+
 import javax.swing.JFrame;
 import java.awt.Dimension;
 import java.awt.GridBagLayout;
@@ -19,10 +23,8 @@ public class TowerDefenseGui extends JFrame {
 
 	private MousePanel panel;
 	private JLabel lblMoney;
-
 	private int money;
 	private int health;
-
 	private JLabel lblHealth;
 
 	public TowerDefenseGui() {

@@ -1,3 +1,6 @@
+//Kaiwen Zhang
+//12/4/19
+//TD
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.File;

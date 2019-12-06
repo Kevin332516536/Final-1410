@@ -1,3 +1,6 @@
+//Kaiwen Zhang
+//12/4/19
+//TD
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -15,9 +18,8 @@ public class Tower extends TowerDefenceObject{
 	private int delayspeed;
 	private int delaytime;
 
-	public  Tower(int x, int y, BufferedImage img, int Wi, int Hi, Bullet zidan, int shootR, int dlspeed, int dltime, int damage,int pvelo,
-				  double xvelo, double yvelo,int enemyhealth) 
-	{	
+	public Tower(int x, int y, BufferedImage img, int Wi, int Hi, Bullet zidan, int shootR, int dlspeed, int dltime, int damage,int pvelo,
+				  double xvelo, double yvelo,int enemyhealth) {	
 		super(x, y, img, Wi, Hi, zidan, shootR, dlspeed, dltime, damage,pvelo, xvelo, yvelo, enemyhealth);
 		tx=x;
 		ty=y;
@@ -73,8 +75,8 @@ public class Tower extends TowerDefenceObject{
 	
 	public Bullet fireAtEnemy(Enemy e) {
 		delaytime=delayspeed;
-		Bullet paodan1=new Bullet(zidan);
-		paodan1.fireAtEnemy(e);
+		Bullet p1=new Bullet(zidan);
+		p1.fireAtEnemy(e);
 		return zidan;
 	}
 	
