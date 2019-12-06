@@ -8,10 +8,9 @@ public class Bullet extends MovingTowerDefenseObject{
 	private int proX;
 	private int proY;
 
-
-	public Bullet(int newx, int newy, BufferedImage img, int Wd, int Hi, Bullet proje, int range, int delyspeed, int delytime,int damage, int pvelo,
+	public Bullet(int newx, int newy, BufferedImage img, int Wd, int Hi, Bullet b1, int range, int delyspeed, int delytime,int damage, int pvelo,
 					double xvelo, double yvelo, int enemyhealth) {
-		super(newx, newy, img, Wd, Hi, proje, range, delyspeed, delytime, damage, pvelo, xvelo, yvelo, enemyhealth);
+		super(newx, newy, img, Wd, Hi, b1, range, delyspeed, delytime, damage, pvelo, xvelo, yvelo, enemyhealth);
 		// TODO Auto-generated constructor stub
 		Damage=damage;
 		proVelo=pvelo;

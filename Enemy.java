@@ -5,10 +5,10 @@ public class Enemy extends MovingTowerDefenseObject{
 	
 	public int Ehealth;
 	
-	public Enemy (int x, int y, BufferedImage img, int Wid, int Hi, Bullet pro, int range, int delyspeed, int delaytime, int damage, int pvelo,
+	public Enemy (int x, int y, BufferedImage img, int Wid, int Hi, Bullet b1, int range, int delyspeed, int delaytime, int damage, int pvelo,
 				  double xvelo, double yvelo, int ehealth)
 		{
-			super(x, y, img, Wid, Hi, pro, range, delyspeed, delaytime, damage,pvelo, xvelo, yvelo, ehealth);
+			super(x, y, img, Wid, Hi, b1, range, delyspeed, delaytime, damage,pvelo, xvelo, yvelo, ehealth);
 		this.Ehealth=ehealth;
 	}
 	
